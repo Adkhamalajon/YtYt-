@@ -136,8 +136,45 @@ body{
 .section2 .container div:nth-child(2) div p{
   width: max-content;
   padding: 10px 20px;
+  color: #fff;
   background-color: #38BFF2;
-  border: 1px solid black;
+  border: none;
   border-radius: 20px;
 }
 
+.section3 .container{
+  width: 80%;
+  min-width: 1000px;
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3 .container .section3-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 25px;
+  gap: 1rem;
+}
+
+.section3 .container .section3-list div{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #EAF2F5;
+}
+
+.section3 .container .section3-list p{
+  font-size: 13px;
+}
