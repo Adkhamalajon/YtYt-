@@ -243,24 +243,139 @@ body{
 
 
 .section6{
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto ;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .section6 .container{
-  width: 900px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.section6 .container div{
+  width: 200px;
+}
+
+.head-numbers{
+  margin: 15px 0;
+  font-size: 44px;
+  font-weight: bold;
+  color: #38BFF2;
+}
+
+.section6 span{
+  margin-top: 30px;
+  height: 180px;  
+  border: 0.5px solid #EAF2F5;
+}
+
+.section6 .container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.section6 .container2 a{
+  background-color: #F15525;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 0 15px;
+}
+
+.section6 .container2 p{
+  width: 230px;
+}
+
+.section7{
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section6 .container div{
-  width: 230px;
-  gap: 40px;
+.section7 .container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+.section7 .container div:nth-child(1),
+.section7 .container div:nth-child(4){
+  width: 350px;
+  height: 250px;
+  border-radius: 50px;
+  margin: 15px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAF2F5;
+}
 
+.section7 .container div:nth-child(2),
+.section7 .container div:nth-child(3){
+  width: 500px;
+  height: 250px;
+  border-radius: 50px;
+  margin: 15px;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #EAF2F5;
+}
 
+.section7 img{
+  width: 200px;
+  height: 200px;
+}
+
+.section7 p{
+  margin: 15px 0;
+  font-size: 13px;
+}
+
+.section8 .container{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section8 .container .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section8 .container .list div{
+  margin: 25px 15px;
+}
+
+.section8 .container .list :first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section8 .container .list :first-child p{
+  width: 280px;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 15px;
+}
