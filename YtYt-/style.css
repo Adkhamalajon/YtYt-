@@ -13,23 +13,23 @@ body{
 
 .primary-header{
   margin: 10px auto;
-  width: 80%;
-  min-width: 720px;
-  height: 37px;
-  background-color: rgba(55, 255, 255, 0.9); 
-  border-radius: 75px;
-  padding: 0 15px;
+  width: 1200px;
+  height: 37px; 
+ 
   backdrop-filter: blur(7.5px);
 }
 
 .primary-header .container{
-  width: 100%;
-  min-width: 680px;
-  height: 100%;
+  width: 80%;
+  height: 100%; 
+  margin: auto;
   display: flex;
   justify-content:space-between;
   align-items: center ;
   gap: 1rem;
+  padding: 0 15px;
+  border-radius: 75px;
+  background-color: rgba(55, 255, 255, 0.9);
   
 }
 
@@ -40,7 +40,6 @@ body{
 
 .nav-wrapper{
   width: 60%;
-  min-width: 450px;
   display: flex;
   justify-content: space-between; 
 }
@@ -65,8 +64,7 @@ body{
 /*section1*/
 
 .section1{
-  width: 80%;
-  height: 500px;
+  width: 1200px;
   margin: 70px auto;
   margin-bottom: 0;
 }
@@ -75,7 +73,7 @@ body{
   width: 100%;
   min-width: 770px;
   height: 100%;
-  padding: 10px 10px;
+  padding:100px;
   display: flex;
   justify-content: space-between;
 }
@@ -111,11 +109,11 @@ body{
 
 .section2{
   text-align: center;
+  width: 1200px;
 }
 
 .section2 .container{
   width: 80%;
-  min-width: 950px;
   margin: 0 auto;
   margin-top: 25px;
   padding: 40px;
@@ -134,17 +132,17 @@ body{
 }
 
 .section2 .container div:nth-child(2) div p{
-  width: max-content;
+  
   padding: 10px 20px;
   color: #fff;
   background-color: #38BFF2;
   border: none;
   border-radius: 20px;
+  flex-grow: 1;
 }
 
 .section3 .container{
-  width: 80%;
-  min-width: 1000px;
+  width: 1000px;
   margin: 35px auto;
   display: flex;
   flex-direction: column;
@@ -176,8 +174,7 @@ body{
 }
 
 .section4 .container{
-  width:100%;
-  min-width: 1000px;
+  width:1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -195,7 +192,7 @@ body{
 
 
 .section5{
-  width: 1000px;
+  width: 1200px;
   height: 500px;
   margin:0 auto;
   display: flex;
@@ -294,6 +291,7 @@ body{
 
 .section6 .container2 p{
   width: 230px;
+  text-align: center;
 }
 
 .section7{
@@ -461,7 +459,6 @@ footer .container{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  
 }
 
 footer .container .contact-information{
@@ -477,3 +474,280 @@ footer .container .contact-information div{
 footer .container .contact-information div a{
   margin-top: 12px;
 }
+
+
+@media screen and (max-width: 360px) {
+  .primary-header{
+    width: 330px;
+    margin: 15px 10px;
+  }
+
+  .primary-header .container{
+    width: 100%;
+  }
+
+  .toggle-button{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .toggle-button span{
+    width: 80%;
+    margin: 1px auto;
+    border: 1px solid black;
+  }
+
+  .nav-wrapper{
+    display: none;
+  }
+
+  .registration {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .registration a:first-child {
+    display: none;
+  }
+
+  .section1 {
+    width: 330px;
+    margin: 10px auto;
+  }
+  .section1 .container{
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .section1 .container :nth-child(2) img{
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .section1 .container h1{
+    width: 290px;
+    text-align: center;
+  }
+  .section1 .container hr{
+    margin-top: 10px;
+  }
+
+  .section1 a{
+    margin: 20px 25px;
+  }
+
+  .section2{
+    width: 320px;
+    margin: 0 auto;
+    
+  }
+
+  .section2 .container{
+    width:100%;
+    margin: 0;
+    padding: 0px;
+      display: flex;
+    justify-content: center;
+    
+  }
+
+  .section2 img, .section2 .container h3{
+    display: none;
+  }
+
+  .section2 .container div:nth-child(2) div{
+    width: 330px;
+    padding: 20px;
+  
+  }
+
+
+  .section2-list p{
+    flex-grow: 1;
+    width: max-content;
+  }
+
+  .section3 .container{
+    width: 330px;
+    font-size: small;
+  }  
+
+  .section3 .container .section3-list {
+    padding: 5px;
+    margin-top: 15px;
+  }
+
+  .section3 .container .section3-list div{
+    width: 150px;
+    flex-grow: 1;
+  }
+
+  .section4 .container{
+    width: 330px;
+  }
+
+  .section4 .container p{
+    width: 330px;
+    margin: 0 auto;
+  }
+
+  .section5{
+    width: 330px;
+    background-size: 330px 200px;
+    margin: 0 auto;
+    height: 210px;
+  }
+
+  .play-button{
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+  }
+
+  .play-button a{
+    display: block;
+    width: 7px;
+    height: 7px; 
+    border-left: 7px solid #fff;
+    border-top: 3.5px solid #F15525;
+   border-bottom: 3.5px solid #F15525;
+  }
+
+  .play-button::after{
+    content: '';
+    width: 55px;
+    height: 55px;
+    border-radius: 27.5px;
+    position: absolute;
+    z-index: -5;
+    background-color: #F15525;
+    opacity: 0.3;
+  }
+
+  .section6{
+    width: 300px;
+    margin: 15px auto;
+  }
+
+  .section6 .container{
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .section6 span{
+    height: 1px;
+    width: 240px;
+    background-color: #EAF2F5;
+    margin: 0;
+  }
+
+  .section6 .container2{
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 35px;
+  }
+
+  .section6 .container2 a{
+    padding: 20px 60px;
+    margin-bottom: 15px;
+  }
+
+  .section6 .container2 p{
+    width: 290px;
+    text-align: center;
+  }
+
+  .section7{
+    width: 330px;
+  }
+
+  .section7 .container{
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  
+.section7 .container div:nth-child(1),
+.section7 .container div:nth-child(4){
+    width: 300px;
+    padding:15px;
+    margin: 5px 0;
+  }
+
+  .section7 .container div:nth-child(2),
+.section7 .container div:nth-child(3){
+  width: 300px;
+    padding: 15px;
+    margin: 5px 0px;
+}
+
+.section8 .container{
+  width: 330px;
+  margin: 0 auto;
+}
+
+.section8 .container .list{
+  flex-direction: column;
+}
+
+.section8 .container .list div{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section8 .container .list div :last-child{
+  width: 300px;
+}
+
+.section8 .container .list :first-child p{
+  font-size: 13px;
+  margin: 15px;
+  text-align: center;
+}
+
+.section9 {
+  width: 330px;
+}
+
+.section9 .container{
+  width: 100%;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+footer{
+  width: 330px;
+  padding: 20px;
+}
+
+footer .container{
+  width: 100%;
+  flex-direction: column;
+}
+
+footer .container img{
+  margin: 15px auto;
+}
+
+footer .container .contact-information{
+  width: 330px;
+  flex-direction: column;
+  margin: 0 ;
+}
+
+footer .container .contact-information div{
+  margin: 15px auto;
+}
+
+}
+
+
+
