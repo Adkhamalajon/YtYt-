@@ -501,6 +501,45 @@ footer .container .contact-information div a{
 
   .nav-wrapper{
     display: none;
+    position: absolute;
+    top: -500px;
+    left: 0;
+    height: 80vh;
+    width: 250px;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 500px;
+    background-color: #F15525;
+    margin-left: 70px;
+   }
+
+  .nav-wrapper a{
+    padding: 10px 20px;
+    width: max-content;
+    border-radius: 15px;
+  }
+
+  .nav-wrapper a:hover{
+    background-color: #38BFF2 ;
+    
+  }
+
+  .nav-wrapper a:first-child{
+    align-self: flex-end;
+    background-color: inherit ;
+  }
+
+  .nav-wrapper a:last-child{
+    margin-top: 250px;
+    display: block;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #38BFF2;
+  border-radius: 14px;
   }
 
   .registration {
